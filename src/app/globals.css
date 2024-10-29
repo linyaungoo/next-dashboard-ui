@@ -7,3 +7,26 @@
     border: none !important;
     /* font-family: 'Courier New', Courier, monospace !important; */
 }
+
+.rbc-btn-group:first-child{
+    display: none !important
+}
+
+.rbc-toolbar-label{
+    text-align: right !important;
+    padding: 0px 20px !important;
+}
+
+.rbc-btn-group:last-child{
+    font-size: 13px;
+}
+
+.rbc-btn-group:last-child button{
+    border: none !important;
+    background-color: #f1f0ff;
+    margin-left: 2px !important;
+}
+
+.rbc-toolbar button.rbc-active{
+    background-color: #dbdafe !important;
+}
