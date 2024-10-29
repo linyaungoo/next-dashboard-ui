@@ -1,6 +1,6 @@
 // TEMPORARY DATA
 
-export let role = "student";
+export let role = "admin";
 
 export const teachersData = [
   {
@@ -774,7 +774,7 @@ export const eventsData = [
     id: 1,
     title: "Lake Trip",
     class: "1A",
-    date: "2025-01-01",
+    date: "2024-10-01",
     startTime: "10:00",
     endTime: "11:00",
   },
@@ -782,7 +782,7 @@ export const eventsData = [
     id: 2,
     title: "Picnic",
     class: "2A",
-    date: "2025-01-01",
+    date: "2024-01-10",
     startTime: "10:00",
     endTime: "11:00",
   },
@@ -921,14 +921,14 @@ export const calendarEvents = [
   {
     title: "Math",
     allDay: false,
-    start: new Date(2024, 7, 12, 8, 0),
-    end: new Date(2024, 7, 12, 8, 45),
+    start: new Date(2024, 8, 12, 8, 0),
+    end: new Date(2024, 8, 12, 8, 45),
   },
   {
     title: "English",
     allDay: false,
-    start: new Date(2024, 7, 12, 9, 0),
-    end: new Date(2024, 7, 12, 9, 45),
+    start: new Date(2024, 8, 30, 10, 0),
+    end: new Date(2024, 8, 30, 10, 45),
   },
   {
     title: "Biology",
